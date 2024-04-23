@@ -1,0 +1,40 @@
+.Contenedor-barra-navegadora{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    background-color: #161A30;
+    height: 50px;
+    
+}
+
+.Item-barra-navegador{
+    margin-left: 50px;
+    padding: 5px;
+    color:white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.Item-barra-navegador:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+
+.Item-barra-navegador p{
+    margin:0;
+}
+
+.Contenedor-Icono-barra-navegadora{
+    position: absolute;
+    right:30px;
+}
+
+.Contenedor-Icono-barra-navegadora:hover{
+    height: 10px;
+}
