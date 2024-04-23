@@ -1,5 +1,6 @@
 import express from "express";
 import dir from "path";
+import "./db.js";
 
 const app = express();
 const dir_front = dir.resolve();
